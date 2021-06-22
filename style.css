@@ -10,6 +10,9 @@
  .color-green{
      color: #00abae;
  }
+ .sub-title{
+     font-size: 32px;
+ }
  /* [header]のスタイルシート */
 
  .block-header{
@@ -23,3 +26,110 @@
      text-decoration: none;
      letter-spacing: 1px;
  }
+ /* メインタグのスタイルシート */
+ .block-main{
+     text-align: center;
+     margin: 100px 0;
+ }
+ /* プロフィールのスタイルシート */
+
+ .item-ilst{
+     width: 100%;
+     max-width: 348px;
+     margin: 0 auto;
+ }
+ .name{
+     font-size: 24px;
+     margin: 20px 0 30px;
+ }
+.item-ilst p{
+    font-size: 20px;
+    line-height: normal;
+    text-align: left;
+    
+} 
+.icon-list{
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-ilst li{
+    margin-right: 22px;
+}
+.item-ilst li:last-child{
+    margin-right: 0;
+
+}
+
+.kaigyou{
+margin:0 150px;
+
+}
+/* ワークススタイルシート */
+.work{
+    margin: 80px 0 0;
+}
+.work p{
+    font-size: 32px;
+}
+.worklist{
+    list-style: none;
+    width: 100%;
+    max-width: 1076px;
+    margin: 30px auto;
+    padding: 0;
+    text-align: left;
+    overflow: hidden;
+    
+}
+.worklist li{
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+}
+.worklist li:last-child{
+    margin-right: 0;
+}
+
+.worklist li img{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.worklist li h3{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.worklist li span{
+    font-size: 18px;
+}
+.worklist li link{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 15px;
+}
+.worklist li .link a{
+    background-color: rgb(226, 226, 226);
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+/* footerのスタイルシート */
+
+.block-footer p{
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0 20px;
+
+}
