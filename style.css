@@ -133,3 +133,48 @@ margin:0 150px;
     margin: 50px 0 20px;
 
 }
+/* スマホ用スタイルシート */
+@media screen and (max-width: 767px){
+   body{
+       min-width: 100%;
+   }
+   .block-main{
+       margin-top: 50px;
+   }
+   /* プロフィールスタイルシート */
+   .block-header a{
+       font-size: 35px;
+   }
+   .item-ilst{
+       min-width: 100%;
+   }
+   .item-list .color-green{
+       font-size: 12px;
+   }
+   .name{
+       font-size: 20px;
+       margin: 10px;
+   }
+ .icon-list{
+    min-width: 100%;
+   }
+   .kaigyou{
+    margin: 10px;
+    }
+    .icon-list img{
+        width: 80%;
+       
+    }
+   .worklist{
+       min-width: 100%;
+   }
+   .worklist li{
+       min-width: 100%;
+   }
+   .worklist li img{
+       margin-top: 10px;
+       width: 85%;
+       
+   }
+   
+}
