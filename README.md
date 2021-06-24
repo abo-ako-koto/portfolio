@@ -10,7 +10,7 @@ Portfolio sample
 ## 利用している技術
 HTML / CSS
 
-##インストール方法
+## インストール方法
 そのまま　index.htmlをブラウザで開くと閲覧できます
 
 
